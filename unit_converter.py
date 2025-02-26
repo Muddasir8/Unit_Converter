@@ -16,7 +16,10 @@ st.markdown(
             background-color:rgba(53, 78, 133, 0.74);
             color: white;
             text-align: center;
+        }
 
+        div[data-baseweb="select"] * {
+            cursor: pointer !important;
         }
 
         .result-box {
